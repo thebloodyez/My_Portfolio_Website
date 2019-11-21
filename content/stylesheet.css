@@ -187,4 +187,15 @@ header .header-cases
     padding: 60px 0px;
 }
 
+.index-banner h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 4px 8px #111;
+    padding: 430px 0px;
+}
 /* My Code End Here*/
