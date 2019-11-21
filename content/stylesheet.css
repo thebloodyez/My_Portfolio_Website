@@ -104,9 +104,29 @@ input, select {
     vertical-align:middle;
 }
 
-/* Code Begin Here*/
-/* */
+/* My Code Begin Here*/
+
+body
+{
+    background-color: lightgray;
+}
+
+header
+{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand
+{
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111111;
+
+}
 
 
 
-/* Code End Here*/
+/* My Code End Here*/
