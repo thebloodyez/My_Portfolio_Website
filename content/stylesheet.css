@@ -105,6 +105,10 @@ input, select {
 }
 
 /* My Code Begin Here*/
+*
+{
+    text-decoration: none;
+}
 
 body
 {
@@ -115,16 +119,56 @@ header
 {
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 130px;
 }
 
 header .header-brand
 {
     font-family: 'Cinzel', serif;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: bolder;
     color: #111111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
 
+}
+
+header nav ul 
+{
+    display: block;
+    margin: 0px auto;
+    width: fit-content;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    float: left; 
+    list-style: none;
+    padding: 0px 100px;
+}
+
+header nav ul li a
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #111111;
+}
+
+header .header-cases
+{
+    display: none;
+}
+
+/*INDEX codes*/
+.index-banner
+{
+    width: 100%;
+    height: 100vh;
 }
 
 
