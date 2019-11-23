@@ -206,11 +206,60 @@ header .header-cases
     padding: 430px 0px;
 }
 
-.index-boxlink-square
+.index-links div
 {
     margin: 15px 15px 0;
     width: calc(100% - 30px);
     height: 100px;
     background-color: #f2f2f2;
 }
+
+.index-links div h3
+{
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* Main Code Ends*/
+
+/* Footer Code Begin*/
+
+footer
+{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+}
+
+footer ul
+{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li
+{
+    display: block;
+    list-style: none;
+
+}
+
+footer ul li a
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+
+
 /* My Code End Here*/
