@@ -284,7 +284,7 @@ header .header-cases
     .wrapper
     {
         width: 1000px;
-        margin: 0 auto;
+        margin: 0 50px;
     }
     .index-banner
     {
@@ -313,11 +313,6 @@ header .header-cases
         width: calc(50% - 20px) !important;
     }
 
-    .vertical-center
-    {
-        display: table-cell;
-        vertical-align: middle;
-    }
 
 }
 
