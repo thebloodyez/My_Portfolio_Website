@@ -90,7 +90,7 @@ table {
     border-spacing:0;
 }
 
-/* change border colour to suit your needs */
+/* change border color to suit your needs */
 hr {
     display:block;
     height:1px;
@@ -149,7 +149,7 @@ header nav ul li
     display: inline-block;
     /* float: left;  */
     list-style: none;
-    padding: 0px 100px;
+    padding: 0px 60px;
 }
 
 header nav ul li a
@@ -218,7 +218,7 @@ header .header-cases
     background-image: url('img/apple-macbook-workingdesk.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     display: table;
 }
 
@@ -288,9 +288,9 @@ header .header-cases
     }
     .index-banner
     {
-        /* width: 100%; */
+        width: 100%;
         /* Use min-height instead of height*/
-        max-height: 300px;
+        min-height: 300px;
         background-image: url('img/apple-macbook-workingdesk.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -311,6 +311,12 @@ header .header-cases
     .index-boxlink-rectangle
     {
         width: calc(50% - 20px) !important;
+    }
+
+    .vertical-center
+    {
+        display: table-cell;
+        vertical-align: middle;
     }
 
 }
