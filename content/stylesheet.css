@@ -290,7 +290,7 @@ header .header-cases
     {
         width: 100%;
         /* Use min-height instead of height*/
-        min-height: 200px;
+        max-height: 200px;
         background-image: url('img/apple-macbook-workingdesk.jpg');
         background-repeat: no-repeat;
         background-position: center;
