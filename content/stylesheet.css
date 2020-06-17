@@ -214,7 +214,7 @@ header .header-cases
 {
     width: 100%;
     /* Use min-height instead of height*/
-    min-height: calc(100vh - 130px);
+    max-height: calc(100vh - 100px);
     background-image: url('img/apple-macbook-workingdesk.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -248,7 +248,7 @@ header .header-cases
     font-style: italic;
     text-align: center;
     text-shadow: 4px 4px 8px #111;
-    padding: 430px 0px;
+    padding: 50px 0px 360px 0px;
 }
 
 .index-links 
@@ -260,7 +260,8 @@ header .header-cases
 .index-links div
 {
     margin: 25px 15px 0;
-    height: 250px;
+    width: calc( 100% - 32px);
+    height: 100px;
     background-color: #f2f2f2;
     float: left;
 }
@@ -281,22 +282,33 @@ header .header-cases
 
 @media only screen and (min-width:1000px)
 {
+ /*
     .wrapper
     {
         width: 1000px;
-        margin: 0 50px;
+        margin: 0 auto;
     }
+*/
     .index-banner
     {
         width: 100%;
-        /* Use min-height instead of height*/
-        max-height: 200px;
+        /*Use max-height instead of height*/
+        height: 500px;
         background-image: url('img/apple-macbook-workingdesk.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: table;
     } 
+
+    .index-links div
+    {
+        margin: 10px 10px 0;
+        width: calc( 100% - 32px);
+        height: 250px;
+        background-color: #f2f2f2;
+        
+    }
 
     .index-links div h3
     {
