@@ -282,13 +282,13 @@ header .header-cases
 
 @media only screen and (min-width:1000px)
 {
- /*
+ 
     .wrapper
     {
         width: 1000px;
         margin: 0 auto;
     }
-*/
+
     .index-banner
     {
         width: 100%;
