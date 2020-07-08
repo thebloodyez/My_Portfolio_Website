@@ -338,6 +338,16 @@ header .header-cases
         width: calc(50% - 20px) !important;
     }
 
+/*CASES*/
+
+    .cases-links .cases-link
+    {
+        float: left;
+        width: 240px;
+        height: 240px;
+        background-color: #e3e3e3;
+    }
+
 
 }
 
