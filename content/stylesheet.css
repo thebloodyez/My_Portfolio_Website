@@ -352,7 +352,6 @@ header .header-cases
         font-size: 28px;
         font-weight: 600;
         color: #111;
-        text-transform: uppercase;
     }
 
     .cases-links .cases-link
@@ -371,7 +370,6 @@ header .header-cases
         font-weight: 600;
         color: #111;
         text-align: center;
-        text-transform: uppercase;
     }
 
     .cases-links .contact-banner
@@ -395,9 +393,9 @@ header .header-cases
     }
     .cases-links .contact-banner p
     {
-        padding-top: 20px;
+        padding-top: 30px;
         font-family: 'Cinzel', serif;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 600;
         color: #111;
         text-align: center;
