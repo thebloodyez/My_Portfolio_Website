@@ -382,15 +382,25 @@ header .header-cases
         margin: 20px 10px 0px;
         background-color: #e3e3e3;
     }
+    
+    .cases-links .contact-banner h3
+    {
+        padding-top: 30px;
+        font-family: 'Cinzel', serif;
+        font-size: 28px;
+        font-weight: 600;
+        color: #111;
+        text-align: center;
+        text-transform: uppercase;
+    }
     .cases-links .contact-banner p
     {
-        padding-top: 10%;
+        padding-top: 20px;
         font-family: 'Cinzel', serif;
         font-size: 20px;
         font-weight: 600;
         color: #111;
         text-align: center;
-        text-transform: lowercase;
     }
     
 
