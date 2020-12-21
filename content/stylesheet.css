@@ -402,10 +402,31 @@ header .header-cases
         text-align: center;
     }
     
+/* Case 1 Name: Qas-Con*/
+
+.cases-links .qascon
+{
+    float: left;
+    width: 980px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
+}
+.cases-links .qascon h3
+{
+    padding-top: 95px;
+    padding-bottom: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 }
 
-/* Case 1 Name: Qas-Con*/
+
 
 
 /* Main Code Ends*/
